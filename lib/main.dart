@@ -195,11 +195,12 @@ class _ChatScreenState extends State<ChatScreen> with TickerProviderStateMixin {
     _focusNode.requestFocus();
     message.animationController.forward();
   }
-
+  /*
   @override
   void dispose() {
     for (ChatMessage message in _messages)
       message.animationController.dispose();
     super.dispose();
   }
+  */
 }
