@@ -16,8 +16,6 @@ final ThemeData kDefaultTheme = ThemeData(
   primaryColorBrightness: Brightness.dark
 );
 
-// String _name = 'Nemo';
-
 class Chater extends StatelessWidget {
   @override
   Widget build(BuildContext context){
@@ -98,7 +96,7 @@ class _ChatScreenState extends State<ChatScreen> with TickerProviderStateMixin {
               child: Center(
                 child: Container(
                   child: Text(
-                    'ayy',
+                    'Sx Now',
                     style: TextStyle(fontSize: 32),
                   ),
                 ),
